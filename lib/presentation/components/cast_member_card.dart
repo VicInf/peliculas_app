@@ -21,6 +21,7 @@ class CastMemberCard extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(12),
+        // Wrap in SizedBox to limit size
         child: SizedBox(
           width: 120,
           height: 180,
@@ -37,7 +38,7 @@ class CastMemberCard extends StatelessWidget {
               // Gradient overlay
               Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
+                  borderRadius: BorderRadius.circular(12), // Smoother corners
                   gradient: LinearGradient(
                     begin: Alignment.bottomCenter,
                     end: Alignment.topCenter,

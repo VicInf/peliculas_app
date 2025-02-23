@@ -12,6 +12,7 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
+  // Actor details fetched from the API
   late Future<Map<String, dynamic>> actorDetails;
 
   @override
@@ -62,7 +63,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      // Back Button
+                      // Back Button (<)
                       IconButton(
                         icon: Container(
                           padding: const EdgeInsets.all(5),
