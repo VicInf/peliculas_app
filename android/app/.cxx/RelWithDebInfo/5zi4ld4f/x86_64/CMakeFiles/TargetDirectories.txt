@@ -1,0 +1,2 @@
+C:/Users/Vicente/Desktop/Programar/peliculas_app/android/app/.cxx/RelWithDebInfo/5zi4ld4f/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Vicente/Desktop/Programar/peliculas_app/android/app/.cxx/RelWithDebInfo/5zi4ld4f/x86_64/CMakeFiles/rebuild_cache.dir
