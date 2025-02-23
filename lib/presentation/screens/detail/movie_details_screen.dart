@@ -5,9 +5,10 @@ import 'package:peliculas_app/presentation/components/cast_member_card.dart';
 import 'package:peliculas_app/router/app_router_constants.dart';
 
 class MovieDetailsScreen extends StatefulWidget {
-  final dynamic movie;
+  // Specific details of a movie like actor cast
   const MovieDetailsScreen({required this.movie, super.key});
-
+  // Movie details passed from the previous screen
+  final dynamic movie;
   @override
   State<MovieDetailsScreen> createState() => _MovieDetailsScreenState();
 }
