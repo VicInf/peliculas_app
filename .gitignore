@@ -10,8 +10,6 @@
 .svn/
 migrate_working_dir/
 
-.vscode/settings.json
-
 # IntelliJ related
 *.iml
 *.ipr
